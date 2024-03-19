@@ -1,0 +1,37 @@
+
+.nav-item a{
+  color:white !important;
+}
+.navbar{
+  background-color: black;
+}
+.logo-text{
+  color:#22B3C1 ;
+  font-size: 12px;
+/* letter-spacing: 2px; */
+}
+.followers{
+  color: white;
+  font-size: 20px;
+  font-family: 'Lexend Deca';
+  font-weight: 700;
+}
+.Font-same-style{
+  font-size: 15px;
+  font-family: "Poppins";
+  
+}
+.btn-login-tickets{
+  background-color: #22B3C1 ;
+  border: none;
+  border-radius:5px;
+  padding: 10px;
+  font-family: 'Poppins';
+  width: 120px;
+  color: white;
+
+}
+.phoen-icon{
+  color: #22B3C1;
+  font-size: 25px;
+}
