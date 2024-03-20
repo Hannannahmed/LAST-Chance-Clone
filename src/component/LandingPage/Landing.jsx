@@ -14,14 +14,15 @@ import img10 from "../../assests/images/Google_Pay_GPay_Logo-512 1.png";
 import img11 from "../../assests/images/master.png";
 import img12 from "../../assests/images/visa.png";
 import img13 from "../../assests/images/batch.png";
-import fb from '../../assests/images/image 8.png'
-import twiter from '../../assests/images/image 7.png'
-import Pintrest from '../../assests/images/image 6.png'
-import Youtube from '../../assests/images/image 5.png'
-import Instagram from '../../assests/images/image 4.png'
+import fb from "../../assests/images/image 8.png";
+import twiter from "../../assests/images/image 7.png";
+import Pintrest from "../../assests/images/image 6.png";
+import Youtube from "../../assests/images/image 5.png";
+import Instagram from "../../assests/images/image 4.png";
 import newsletter from "../../assests/images/newsletter.png";
 import galery from "../../assests/images/image 9.png";
 import reviews from "../../assests/images/image 2.png";
+import Sliderstar from "../../assests/images/Group 5.png";
 const Landing = () => {
   const cardsData = [
     {
@@ -162,14 +163,54 @@ const Landing = () => {
             ))}
           </div>
         </div>
+        <div className="row">
         <div className="section-4 text-center ">
           <h2>Excellent</h2>
           <img src={img6} width={200} alt="" />
           <h3>Based on 1,559 reviews</h3>
-          <img src={img7} alt="" />
+          <img src={img7} width={40} className="mb-4" alt="" />
           <span className="fw-bold fs-2">Trustpilot</span>
+          <div className="row text-start p-2">
+            <div className="col-md-3">
+              <img src={Sliderstar} alt="" />
+              <h4>Ecellent service</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, nam
+                deleniti. Tenetur soluta repellat quam ab aspernatur voluptatum
+                ducimus, 
+              </p>
+            </div>
+            <div className="col-md-3 ">
+              <img src={Sliderstar} alt="" />
+              <h4>Ecellent service</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, nam
+                deleniti. Tenetur soluta repellat quam ab aspernatur voluptatum
+                ducimus, 
+              </p>
+            </div>
+            <div className="col-md-3 ">
+              <img src={Sliderstar} alt="" />
+              <h4>Ecellent service</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, nam
+                deleniti. Tenetur soluta repellat quam ab aspernatur voluptatum
+                ducimus, 
+              </p>
+            </div>
+            <div className="col-md-3 ">
+              <img src={Sliderstar} alt="" />
+              <h4>Ecellent service</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, nam
+                deleniti. Tenetur soluta repellat quam ab aspernatur voluptatum
+                ducimus, 
+              </p>
+            </div>
+          
+          </div>
         </div>
-
+        </div>
         <div className="row section-5 mt-5 ">
           <div className="col-md-8 joinn p-5">
             <h3>
@@ -194,128 +235,85 @@ const Landing = () => {
               <img src={newsletter} className="" width={400} alt="" />
             </div>
           </div>
-          {/* <div className="col-md-12 bg-dark mt-4  ">
-            <div className="col-md-8">
-              <h2 className="text-white">PAYMENT</h2>
-              <div className="parent2 d-flex align-items-center gap-3 flex-wrap">
-                <div className="child2">
-                  <img src={img12} alt="" />
+        </div>
+
+        <div className="row">
+          <footer className=" bg-black  p-4">
+            <div className="container">
+              <div className="row">
+                <div className="col-lg-6 col-md-12 mb-4 mb-md-0">
+                  {/* Payment section */}
+                  <h5 className="text-uppercase text-white">PAYMENT</h5>
+                  <div className="parent3 d-flex">
+                    {/* Payment methods icons */}
+                    <div className="child3">
+                      <img src={img12} width={60} alt="" />
+                      <img src={img11} width={51} alt="" />
+                      <img src={img9} width={70} alt="" />
+                      <img src={img10} width={60} alt="" />
+                      <img src={img8} width={60} alt="" />
+                    </div>
+                  </div>
+                  <div className="child-4 d-flex align-items-center">
+                    {/* Our Warranty */}
+                    <img src={img13} alt="" />
+                    <span className="text-uppercase text-white">
+                      Our Warranty IF YOU ARE NOT 100% SATUSFIED WE WILL REFUND
+                      YOU 100% OF YOUR ORDER.
+                    </span>
+                  </div>
+                  <div className="parent-4 d-flex gap-4">
+                    {/* Contact and company info */}
+                    <div className="child-5">
+                      <h6 className="text-white">ArtsDot.com</h6>
+                      <p className="footer-text">Privacy Policy</p>
+                      <p className="footer-text">Terms Of Services</p>
+                      <p className="footer-text">Contact@ArtsDot</p>
+                    </div>
+                    <div className="child-6">
+                      <p className="footer-text">Copyright 2007-2024</p>
+                      <p className="footer-text">Return Policies</p>
+                      <p className="footer-text">F.A.Q 1/2 F.A.Q 2/2</p>
+                    </div>
+                  </div>
                 </div>
-                <div className="child2">
-                  <img src={img11} alt="" />
+                <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
+                  {/* Empty column */}
                 </div>
-                <div className="child2 bg-secondary   ">
-                  <img src={img9} alt="" />
-                </div>
-                <div className="child2 bg-secondary p-2">
-                  <img src={img10} alt="" />
-                </div>
-                <div className="child2 bg-secondary p-2">
-                  <img src={img8} alt="" />
-                </div>
-              </div>
-              <div className="parent3 d-flex">
-                <div className="child3">
-                  <img src={img13} alt="" />
-                </div>
-                <div className="child-3 text-white mt-3">
-                  <h4>OUR WARRANTY</h4>
-                  <p>
-                    OUR WARRANTY IF YOU ARE NOT 100% SATUSFIED WE
-                    <br />
-                    WILL REFUND YOU 100% OF YOUR ORDER.
-                  </p>
-                </div>
-              </div>
-              <div className="parent4">
-                <div className="child4 text-white">
-                <h6>ArtsDot.com</h6>
-<p className="text-muted">Privacy Policies</p>
-<p className="text-muted">Contact@ArtsDot.com</p>
+                <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
+                  {/* Social media section */}
+                  <h5 className="text-uppercase text-white">Social Media</h5>
+                  <div className="parent-7">
+                    <div className="child-7 gap-3  d-flex alig-items-center gap-2 flex-wrap">
+                      {/* Social media icons */}
+                      <img src={fb} alt="" />
+                      <img src={twiter} alt="" />
+                      <img src={Pintrest} alt="" />
+                      <img src={Youtube} alt="" />
+                      <img src={Instagram} alt="" />
+                    </div>
+                  </div>
+                  <ul className="list-unstyled">
+                    {/* Partners */}
+                    <li>
+                      <h3 className="text-uppercase text-white mt-3">
+                        Partners
+                      </h3>
+                    </li>
+                    <li className="mt-3">
+                      <img src={galery} alt="" />
+                    </li>
+                    <li className="mt-3">
+                      <img src={reviews} alt="" />
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
-          </div> */}
+          </footer>
         </div>
-       
-        
-  
- <footer className=" bg-black  p-4">
-  <div className="container">
-    <div className="row">
-      <div className="col-lg-6 col-md-12 mb-4 mb-md-0">
-        {/* Payment section */}
-        <h5 className="text-uppercase text-white">PAYMENT</h5>
-        <div className="parent3 d-flex">
-          {/* Payment methods icons */}
-          <div className="child3">
-            <img src={img12} width={60} alt="" />
-            <img src={img11} width={51} alt="" />
-            <img src={img9} width={70} alt="" />
-            <img src={img10} width={60} alt="" />
-            <img src={img8} width={60} alt="" />
-          </div>
-        </div>
-        <div className="child-4 d-flex align-items-center">
-          {/* Our Warranty */}
-          <img src={img13} alt="" />
-          <span className="text-uppercase text-white">Our Warranty
-            IF YOU ARE NOT 100% SATUSFIED WE WILL REFUND YOU 100% OF YOUR ORDER.
-          </span>
-        </div>
-        <div className="parent-4 d-flex gap-4">
-          {/* Contact and company info */}
-          <div className="child-5">
-            <h6 className="text-white">ArtsDot.com</h6>
-            <p className="footer-text">Privacy Policy</p>
-            <p className="footer-text">Terms Of Services</p>
-            <p className="footer-text">Contact@ArtsDot</p>
-          </div>
-          <div className="child-6">
-            <p className="footer-text">Copyright 2007-2024</p>
-            <p className="footer-text">Return Policies</p>
-            <p className="footer-text">F.A.Q 1/2 F.A.Q 2/2</p>
-          </div>
-        </div>
+        {/* Footer */}
       </div>
-      <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
-        {/* Empty column */}
-      </div>
-      <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
-        {/* Social media section */}
-        <h5 className="text-uppercase text-white">Social Media</h5>
-        <div className="parent-7">
-          <div className="child-7 gap-3  d-flex alig-items-center gap-2 flex-wrap">
-            {/* Social media icons */}
-            <img src={fb} alt="" />
-            <img src={twiter} alt="" />
-            <img src={Pintrest} alt="" />
-            <img src={Youtube} alt="" />
-            <img src={Instagram} alt="" />
-          </div>
-        </div>
-        <ul className="list-unstyled">
-          {/* Partners */}
-          <li>
-            <h3 className="text-uppercase text-white mt-3">Partners</h3>
-          </li>
-          <li className="mt-3">
-            <img src={galery} alt="" />
-          </li>
-          <li className="mt-3">
-            <img src={reviews} alt="" />
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</footer>
-
-  {/* Footer */}
-
-
-        </div>
-      
     </>
   );
 };

@@ -1,4 +1,5 @@
 import Landing from "./component/LandingPage/Landing";
+import NewLanding from "./component/LandingPage/NewLanding";
 import Navbar from "./component/Navbar/Navbar";
 
 
@@ -8,6 +9,7 @@ function App() {
    <>
    <Navbar />
    <Landing />
+   {/* <NewLanding /> */}
    
    </>
   );

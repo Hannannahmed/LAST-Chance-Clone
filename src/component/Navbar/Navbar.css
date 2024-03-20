@@ -27,7 +27,8 @@
   border-radius:5px;
   padding: 10px;
   font-family: 'Poppins';
-  width: 120px;
+  /* width: 120px; */
+  text-wrap: nowrap;
   color: white;
 
 }
